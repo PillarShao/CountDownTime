@@ -1,0 +1,29 @@
+#box{
+    width: 600px;
+    height: 200px;
+    border: 1px solid #999;
+    padding: 50px;
+    margin: 200px auto;
+    background-color: #999;
+}
+h2 span{color: aquamarine}
+.result{
+    margin-top: 50px;
+    display: table;
+    padding: 15px;
+    border: 1px solid antiquewhite;
+}
+.result span{
+    display: inline-block;
+    padding: 5px 10px;
+    border-left: 1px solid saddlebrown;
+    text-align: center;
+    font-size: 24px;
+    color: white
+}
+.result span:first-child{
+    border-left: none;
+}
+.result em{
+    font-style: normal
+}
